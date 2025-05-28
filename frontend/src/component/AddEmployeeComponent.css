@@ -1,0 +1,27 @@
+.add-employee-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('https://source.unsplash.com/1600x900/?office') no-repeat center/cover;
+}
+
+.card {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.form-control, .btn {
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.btn-success:hover {
+    background: #218838;
+}
+
+.btn-danger:hover {
+    background: #c82333;
+}
